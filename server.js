@@ -17,7 +17,7 @@ async function getFounds(){
         const nameFunds = $(elem).text();
         dataListFunds.push(nameFunds);
     });
-    //console.log(`${dataListFunds}`);
+    console.log(`${dataListFunds}`);
     return(dataListFunds);
 }
 async function getNameFunds(){
@@ -29,7 +29,7 @@ async function getNameFunds(){
         const  namePropriety = $(elem).text();
         listNameFunds.push(namePropriety);
     });
-    // console.log(`${listNameFunds}`);
+    console.log(`${listNameFunds}`);
     return(listNameFunds);
 }
 const table = function getTable(){
